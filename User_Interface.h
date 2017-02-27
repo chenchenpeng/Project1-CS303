@@ -28,18 +28,6 @@ class User_Interface {
 			//address when the use enter other inputs ignore continue to prompt for the right input
 			do
 			{
-
-				//move this menu display outside of the function??
-				/*
-				ch = ' ';
-				cout << "\n\n\n\t\tMAIN MENU";
-				cout << "\n\n\tPress 1 to Enter Polynomial One ";
-				cout << "\n\n\tPress 2 to Enter Polynomial Two ";
-				cout << "\n\n\tPress 3 to Add the Polynomials ";
-				cout << "\n\n\tPress 4 to exit";
-				cout << "\n\nPlease Select Your Option (1-4) ";
-
-				*/
 				cout << "\n\nPlease Select Your Option (1-4) ";
 				cin >> ch;
 				switch (ch)
