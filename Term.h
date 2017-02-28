@@ -5,8 +5,8 @@
 
 class Term {
 private:
-	double coefficient;
-	double exponent;
+	int coefficient;
+	int exponent;
 
 public:
 	//Construct a default Term consist of exponent and coefficient
