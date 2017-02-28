@@ -82,6 +82,22 @@ public:
 	bool operator != (const Term& other) {
 		return this->exponent != other.exponent;
 	}
+	//returns the value in coefficient
+	int getCoef() {
+		return this->coefficient;
+	}
+	//updates the value in coefficient
+	void setCoef(int coef) {
+		this->coefficient = coef;
+	}
+	//updates the value in exponent
+	void setExpn(int expn) {
+		this->exponent = expn;
+	}
+	//returns the value in exponent
+	int getExpn() {
+		return this->exponent;
+	}
 };
 
 #endif
