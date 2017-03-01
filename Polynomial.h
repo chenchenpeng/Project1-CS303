@@ -14,7 +14,7 @@ private:
 
 public:
 	//Insert new node into list in order decending by expn
-	void orderedInsert(const int expn, const int coef) {
+	void OrderedInsert(const int expn, const int coef) {
 		Term newNode;
 		//int compareExpn, coeffecient;
 		newNode = Term(coef, expn);
