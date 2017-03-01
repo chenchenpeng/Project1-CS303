@@ -25,7 +25,7 @@ public:
 		cout << "\n\n\tPress 4 to exit";
 		cout << "\n\n\Please enter the polynomial in a user-friendly fashion, such as 3X^3-X^2+1";
 
-		//Address when the use enter other inputs, ignore and continue to prompt for the right input
+		//Address when the user enter other inputs, ignore and continue to prompt for the right input
 		do
 		{
 			cout << "\n\nPlease Select Your Option (1-4) ";
